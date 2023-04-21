@@ -10,7 +10,7 @@ pyautogui.moveTo(x=81, y=119); pyautogui.click()
 pyautogui.PAUSE = 2
 pyautogui.moveTo(x=97, y=222); pyautogui.doubleClick()
 pyautogui.moveTo(x=769, y=952); pyautogui.click()
-pyautogui.typewrite("Você acredita que Maria Madalena engravidou por meio de um espirito?   ")
+pyautogui.typewrite("Por que utilizar o Python na automatização?")
 pyautogui.moveTo(x=1128, y=942); pyautogui.click()
 
 pyautogui.alert('Pesquisa realizada!')
