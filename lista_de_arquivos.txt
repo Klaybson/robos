@@ -1,0 +1,15 @@
+total 20000
+drwxrwxrwx  4 root     root         4096 abr 21 19:48 .
+drwxr-x--- 27 klaybson klaybson     4096 abr 21 19:12 ..
+drwxrwxr-x  3 klaybson klaybson     4096 abr 21 19:30 arquivos
+-rw-rw-r--  1 klaybson klaybson     2401 abr 21 19:14 busca.png
+-rwxr-xr-x  1 klaybson klaybson 20427216 set  7  2021 chromedriver
+-rw-rw-r--  1 klaybson klaybson     1601 abr 21 19:32 desafio_1.py
+drwxrwxr-x  8 klaybson klaybson     4096 abr 21 19:45 .git
+-rw-rw-r--  1 klaybson klaybson       20 abr 21 15:19 hello word.py
+-rw-rw-r--  1 klaybson klaybson        0 abr 21 19:48 lista_de_arquivos.txt
+-rw-rw-r--  1 klaybson klaybson     1010 abr 21 19:03 meu_print.png
+-rw-rw-r--  1 klaybson klaybson      393 abr 21 18:07 PyAutoGui_draw_paint.py
+-rw-rw-r--  1 klaybson klaybson      568 abr 21 19:01 PyAutoGui.py
+-rw-rw-r--  1 klaybson klaybson      151 abr 21 19:19 PyAutoGui_Scree.py
+-rw-rw-r--  1 klaybson klaybson      509 abr 21 19:48 script.py
