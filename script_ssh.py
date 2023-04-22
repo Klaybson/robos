@@ -6,13 +6,13 @@ ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 host = "192.168.1.149"
 port = 22
 username = "klaybson"
-password = "xxxxxx"
+password = "darepo12"
 
 # faz login no servidor
 ssh.connect(host, port, username, password)
 
 # executa o comando em segundo plano
-comando = "nohup touch /home/klaybson/arquivo_ssh2.txt &"
+comando = "nohup systemctl stop apache2 &"
 stdin, stdout, stderr = ssh.exec_command(comando)
 
 # fecha a conexão SSH
