@@ -5,14 +5,14 @@ import pyautogui
 # define as informações de conexão SSH
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-host = "192.168.1.149"
+host = "172.28.2.122"
 port = 22
 username = "root"
-password = "xxxxxx"
+password = "darepo12"
 
 # define as informações de sistema
 
-url = "http://192.168.1.149"
+url = "http://172.28.2.122"
 
 # faz uma requisição GET na URL e verifica o status de resposta
 try:
@@ -24,7 +24,7 @@ except:
     # faz login no servidor
     ssh.connect(host, port, username, password)
     # executa o comando em segundo plano
-    comando = "nohup systemctl start apache2 &"
+    comando = "nohup systemctl start httpd &"
     stdin, stdout, stderr = ssh.exec_command(comando)
     # fecha a conexão SSH
     ssh.close()
